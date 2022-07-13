@@ -20,13 +20,12 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    padding: 3px;
     border-radius: 3%;
-    background: whitesmoke;
 }
 
 .github:hover {
-    border-radius: 7px;
+    border-radius: 3px;
+    background: #bda4bd;
 }
 
 .pic {
@@ -56,4 +55,12 @@ body {
     font-weight: 700;
     left: 22%;
     top: 15%;
+}
+
+.icon {
+    position: absolute;
+    width: 3%;
+    height: 3%;
+    top: 50%;
+    left: 47%;
 }
