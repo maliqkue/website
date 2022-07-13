@@ -1,5 +1,5 @@
 body {
-    background: #d6c5d6;
+    background: #e3d8e3;
 }
 
 .maliqkue {
@@ -23,7 +23,23 @@ body {
     border-radius: 3%;
 }
 
+.discord {
+    font-size: 25px;
+    color: #968a96;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    border-radius: 3%;
+}
+
 .github:hover {
+    border-radius: 3px;
+    background: #bda4bd;
+}
+
+.discord:hover {
     border-radius: 3px;
     background: #bda4bd;
 }
@@ -57,10 +73,18 @@ body {
     top: 15%;
 }
 
-.icon {
+.gitico {
     position: absolute;
     width: 3%;
     height: 3%;
     top: 50%;
     left: 47%;
+}
+
+.discico {
+    position: absolute;
+    width: 1.5%;
+    height: 3%;
+    top: 55%;
+    left: 47.74%;
 }
