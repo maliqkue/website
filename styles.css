@@ -12,8 +12,18 @@ body {
     font-weight: 500;
 }
 
+.contactform {
+    font-size: 450%;
+    color: black;
+    position: absolute;
+    font-family: monospace, sans-serif;
+    left: 37%;
+    top: -3%;
+    font-weight: 500;
+}
+
 .github {
-    font-size: 25px;
+    font-size: 155%;
     color: #968a96;
     font-family: monospace, sans-serif;
     text-decoration: none;
@@ -24,7 +34,7 @@ body {
 }
 
 .discord {
-    font-size: 25px;
+    font-size: 155%;
     color: #968a96;
     font-family: monospace, sans-serif;
     text-decoration: none;
@@ -35,7 +45,7 @@ body {
 }
 
 .creations- {
-    font-size: 25px;
+    font-size: 155%;
     color: #968a96;
     font-family: monospace, sans-serif;
     text-decoration: none;
@@ -46,7 +56,7 @@ body {
 }
 
 .home {
-    font-size: 25px;
+    font-size: 155%;
     color: #968a96;
     font-family: monospace, sans-serif;
     text-decoration: none;
@@ -68,8 +78,8 @@ body {
 }
 
 
-.github:hover, .discord:hover, .creations-:hover, .home:hover, .form-:hover {
-    border-radius: 3px;
+.github:hover, .submit:hover, .discord:hover, .creations-:hover, .home:hover, .form-:hover {
+    border-radius: 3%;
     background: #bda4bd;
 }
 
@@ -149,4 +159,40 @@ body {
     max-height: 3%;
     top: 50%;
     left: 47.5%;
+}
+
+.form {
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.q1, .q2, .q3 {
+    font-family: monospace, sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+.required {
+    font-family: monospace, sans-serif;
+    font-size: 90%;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+.submit {
+    font-family: monospace, sans-serif;
+    font-size: 120%;
+    position: absolute;
+    left: 36%;
+    top: 120%;
+    color: #968a96;
+    background-color: #d8ebe3;
+    border-style: none;
+    padding: 0%;
+}
+
+.sub {
+    resize: none;
 }
