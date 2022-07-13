@@ -34,12 +34,45 @@ body {
     border-radius: 3%;
 }
 
+.creations- {
+    font-size: 25px;
+    color: #968a96;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    border-radius: 3%;
+}
+
+.home {
+    font-size: 25px;
+    color: #968a96;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 3%;
+}
+
+
 .github:hover {
     border-radius: 3px;
     background: #bda4bd;
 }
 
 .discord:hover {
+    border-radius: 3px;
+    background: #bda4bd;
+}
+
+.creations-:hover {
+    border-radius: 3px;
+    background: #bda4bd;
+}
+
+.home:hover {
     border-radius: 3px;
     background: #bda4bd;
 }
@@ -87,8 +120,18 @@ body {
     position: absolute;
     width: auto;
     height: auto;
-    max-width: 1.5%;
+    max-width: 3%;
     max-height: 3%;
     top: 55%;
     left: 47.5%;
+}
+
+.toolico {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 3%;
+    max-height: 3%;
+    top: 60%;
+    left: 47.6%;
 }
