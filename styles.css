@@ -52,27 +52,23 @@ body {
     text-decoration: none;
     position: absolute;
     left: 50%;
+    top: 90%;
+    border-radius: 3%;
+}
+
+.form- {
+    font-size: 25px;
+    color: #968a96;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
     top: 50%;
     border-radius: 3%;
 }
 
 
-.github:hover {
-    border-radius: 3px;
-    background: #bda4bd;
-}
-
-.discord:hover {
-    border-radius: 3px;
-    background: #bda4bd;
-}
-
-.creations-:hover {
-    border-radius: 3px;
-    background: #bda4bd;
-}
-
-.home:hover {
+.github:hover, .discord:hover, .creations-:hover, .home:hover, .form-:hover {
     border-radius: 3px;
     background: #bda4bd;
 }
@@ -106,6 +102,15 @@ body {
     top: 15%;
 }
 
+.learning.two {
+    position: absolute;
+    font-family: monospace, sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    left: 22%;
+    top: 10%;
+}
+
 .gitico {
     position: absolute;
     width: auto;
@@ -134,4 +139,14 @@ body {
     max-height: 3%;
     top: 60%;
     left: 47.6%;
+}
+
+.formico {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 3%;
+    max-height: 3%;
+    top: 50%;
+    left: 47.5%;
 }
